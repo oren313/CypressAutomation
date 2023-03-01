@@ -1,0 +1,6 @@
+{
+  "sumDefaultTag": "2",
+  "maxTags": "10",
+  "defaultTags": "node javascript",
+  "instructionTextExpect": "Press enter or add a comma after each tag"
+}

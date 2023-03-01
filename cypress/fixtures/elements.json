@@ -1,0 +1,8 @@
+{
+    "input": "input",
+    "tagList": "ul li",
+    "removeAllBtn": "button",
+    "tadsCounter": "p > span",
+    "instructionText": ".content > p"
+  }
+  
