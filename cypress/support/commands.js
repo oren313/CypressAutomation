@@ -19,3 +19,10 @@ Cypress.Commands.add("deleteTag", (text) => {
   var el = cy.get(elements.tagList).contains(text);
   el.children(".uit").click();
 });
+Cypress.Commands.add("addLongTag", (TagLength) => {
+    for (let i = 0; i < +TagLength; i++) {
+      cy.addTag("1");
+    }
+    cy.addTag("{enter}");
+  });
+  
