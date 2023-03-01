@@ -13,7 +13,7 @@ Cypress.Commands.add("getTagsList", () => {
 });
 
 Cypress.Commands.add("getCounter", () => {
-  cy.get(elements.tadsCounter);
+  cy.get(elements.tadsCounter); // tagsCounter?
 });
 Cypress.Commands.add("deleteTag", (text) => {
   var el = cy.get(elements.tagList).contains(text);
@@ -21,7 +21,7 @@ Cypress.Commands.add("deleteTag", (text) => {
 });
 Cypress.Commands.add("addLongTag", (TagLength) => {
     for (let i = 0; i < +TagLength; i++) {
-      cy.addTag("1");
+      cy.addTag("1"); // why 1?
     }
     cy.addTag("{enter}");
   });
